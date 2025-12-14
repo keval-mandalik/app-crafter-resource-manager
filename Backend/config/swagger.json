@@ -1,0 +1,17 @@
+{
+    "definition": {
+        "openapi": "3.0.0",
+        "info": {
+            "title": "App Crafters REST API DOCS",
+            "version": "1.0.0",
+            "description": "App Crafters REST API Documentation"
+        },
+        "servers":[
+            {
+                "url":"http://localhost:3000",
+                "description": "local server"
+            }
+        ]
+    },
+    "apis": ["./services/*.swagger.js", "./services/**/*.swagger.js"]
+}
