@@ -1,0 +1,1 @@
+# app-crafter-resource-manager
